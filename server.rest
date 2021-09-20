@@ -1,0 +1,31 @@
+POST https://backend-tech-tes.herokuapp.com/api/contact/add
+Content-Type: "application/json"
+
+{
+    "name":"tajul2",
+    "email":"arifintajul4@gmail.com2",  
+    "message":"coba lagi2",
+    "captcha": "03AGdBq25CNjQh82cFtTmxZ1bDOO7pnwIdIILIuWnhCQEkkIpOr0P1Zhge5qQHJe2NwLhQKvnJVdoM3PX5XwowWs94mSmd_1h9graNKIP-VoSWHtZmyWQWywRStEO-B83WAcrrXeFV7IQTo03bd785Q31YizDID_jkSuiQZeKYswmAEc9mkjmpdNLZbnpR3LZaR8BV5CbYpOBrNUI8QLoC0vY6uq6Rny2YjUv9h3c-vw2idmgxhS4efvmbaepTybPJZPixqGLAeaCaKKq7KY0UFGSZtT56a_pJVl3xLGqwQGf2trRzS6xr5rzfTKA6pBAyd4x3HKEpIg2Jpg-pPXeSuG8_jgXlxQsU-_Cazk8mbLG0qbUpD3_VP7Q0LXGWDjKduEJm8dWYgrvlEHD0rT5SFRO_HFKlfV56MwYkVeVjAVKb35EWX-K7kk_7_R91YKF3mhobl7ikg8rjvfcQf7N8RoJYHrLlNTWodg"
+
+}
+
+###
+POST http://localhost:4000/api/contact/add
+Content-Type: application/json
+
+{
+    "name":"tajul",
+    "email":"arifin",
+    "message":"nyoba",
+    "captcha": "03AGdBq246HN2Pop8y2SW48OGDbmUVZB_ho-GWDTib8-dmOP50poIPo_agJxE9K3AV8tXM0pd-ZHzOPdix3Y8RIwwROfyWZOSx0ziW5qjmkQfp0RtLn5Bo-WPVGnA2jRhSPq03TYspEXgo3XCGotHhxITgb0RlFffQYD6Cl6o0yVmHwKv_Sxk7RSrNsoXYTilnUSMYdipQhpOw8Eb2r-CTFnXvj6ObKXf6DgLfkxJgM-yRfDw5D2JtZlXlDgLgM-7jOaMUbm-MrxgD0al1P40_HNdHjn1NSt_bVqUCO6ulzcLGcbSzbxn16Ae4oV6ncoaOFhpbuytm_NfRsCGQH1YOe1aO6AwRCnAbZZ7USJFTVc7-vVeO70CbRrtot8_gbWL5VGzbfpEsxD-jDta-udhy097lSwzTs1qn7-vA1WHna3oaZvYWkV_1rWpvYjBV1qvFe6ikaZA6YJnO"
+
+}
+
+
+
+###
+GET https://backend-tech-tes.herokuapp.com/api/contact
+Content-Type: application/json
+
+###
+GET  https://backend-tech-tes.herokuapp.com
